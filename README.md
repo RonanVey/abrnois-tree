@@ -12,7 +12,7 @@ L'objectif de ce projet est d'utiliser cette structure pour analyser un ou plusi
 
 ## Implémentation et Algorithmique
 
-## Structure de Données
+### Structure de Données
 
 Les noeuds de l'arbre stockent à la fois la valeur (le mot) et sa priorité (le compte).
 
@@ -24,7 +24,7 @@ typedef struct _noeud {
 } Noeud, ABRnois;
 ```
 
-## Compilation
+### Compilation
 
 Le projet est compilé en utilisant gcc.
 
@@ -32,14 +32,15 @@ Le projet est compilé en utilisant gcc.
 gcc -Wall abrnois.c -o abrnois
 ```
 
-## Syntaxe: 
+### Syntaxe: 
 ```bash
 ./abrnois [OPTIONS] <fichier_frequents> <corpus_1> [<corpus_2> ...].
 ```
 -g permet de créer une représentation sous forme de fichiers .pdf des arbres intermédiaires crées au cours du
     processus de création de la liste des mots les plus fréquents.
+    
 -n suivi d’un entier p pour créer uniquement une liste des p premiers mots les plus fréquents.
 
-## Auteur
+### Auteur
 VEY Ronan
 Projet d'algorithmique 2024-2025
